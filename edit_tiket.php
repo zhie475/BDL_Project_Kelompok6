@@ -35,6 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt = $conn->prepare("UPDATE tiket SET pembeli_id = ?, nama_konser = ?, kategori = ?, harga = ?, tgl_pembelian = ? WHERE tiket_id = ?");
     $stmt->bind_param("isssdi", $pembeli_id, $nama_konser, $kategori, $harga, $tgl_pembelian, $tiket_id);
 
+    
     if ($stmt->execute()) {
         $message = "<div class='message success'>Tiket berhasil diperbarui!</div>";
         // Perbarui data tiket_data agar form menampilkan data terbaru

@@ -19,9 +19,7 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <button type="submit" class="btn-primary">Login</button>
-            <p style="margin-top: 15px; font-size: 0.9em; color: #666;">
-                Ini adalah contoh tampilan login. <br>Fungsi login sesungguhnya memerlukan validasi database.
-            </p>
+            
         </form>
     </div>
 </body>

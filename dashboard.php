@@ -17,7 +17,7 @@
                     <li><a href="tampil_pembeli.php">Pembeli</a></li>
                     <li><a href="tampil_tiket.php">Tiket</a></li>
                     <li><a href="tampil_laporan.php">Laporan</a></li>
-                    <li><a href="login.php">Logout (Contoh)</a></li>
+                    <li><a href="login.php">Logout</a></li>
                 </ul>
             </nav>
         </div>
